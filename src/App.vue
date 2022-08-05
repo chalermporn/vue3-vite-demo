@@ -26,10 +26,11 @@ onMounted(() => {
   <header class="">
     <img alt="Vue logo" class="text-center" src="@/assets/logo.svg" width="125" height="125" />
     <div class="flex flex-col mx-auto items-center">
-      <HelloWorld msg="You did it!" class="text-red-600 text-center" />
+      <HelloWorld msg="You did it!" class="bg-white dark:bg-slate-800 text-center" />
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/test">Test</RouterLink>
       </nav>
     </div>
     <label class="swap swap-rotate">
